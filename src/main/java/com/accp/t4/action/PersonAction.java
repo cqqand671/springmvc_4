@@ -42,6 +42,8 @@ public class PersonAction {
 		Map<String, String> message = new HashMap<String, String>();
 		personBiz.removePersonById(pid);
 		message.put("code", "200");
+		message.put("code", "200");
+
 		message.put("msg", "ok");
 		return message;
 	}
